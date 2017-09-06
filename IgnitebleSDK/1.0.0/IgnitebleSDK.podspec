@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     #s.source            = { :path => './IngitebleSDK.zip' }
-    s.source            = { :http => 'http://s3-us-west-2.amazonaws.com/igniteble-frameworks/IgnitebleIccSDK.zip' }
+    s.source            = { :http => 'http://s3-us-west-2.amazonaws.com/igniteble-frameworks/IgnitebleSDK.zip' }
 
     #s.ios.deployment_target = '10.3'
     s.resources ='IgnitebleSDK.bundle'

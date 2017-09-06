@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
     s.summary           = 'Igniteble ICC SDK'
     s.homepage          = 'https://github.com/IgnitebleTeam/frameworks/'
 
-    s.author            = { 'Name' => 'sdk@example.com' }
-    s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
+    s.author            = { 'Name' => 'sarkis kaloustian' }
+    s.license          = 'Commercial'
 
     s.platform          = :ios
     #s.source            = { :path => './IngitebleIccSDK.zip' }

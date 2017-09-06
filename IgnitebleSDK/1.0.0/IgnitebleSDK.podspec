@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|  
     s.name              = 'IgnitebleSDK'
     s.version           = '1.0.0'
-    s.summary           = 'Igniteble ICC.'
+    s.summary           = 'Igniteble SDK.'
     s.homepage          = 'https://github.com/IgnitebleTeam/frameworks/'
 
     s.author            = { 'Name' => 'sdk@example.com' }

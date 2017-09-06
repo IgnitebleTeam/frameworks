@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.source            = { :http => 'http://s3-us-west-2.amazonaws.com/igniteble-frameworks/IgnitebleSDK.zip' }
 
     #s.ios.deployment_target = '10.3'
-    s.resources = { :http => 'http://s3-us-west-2.amazonaws.com/igniteble-frameworks/IgnitebleSDK.bundle' }
+    s.resources = 'IgnitebleSDK.bundle'
 
 
     s.ios.vendored_frameworks = 'IgnitebleSDK.framework'

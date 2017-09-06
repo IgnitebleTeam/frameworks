@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :git => 'https://github.com/IgnitebleTeam/frameworks/raw/master/IgnitebleIccSDK.zip' }
+    #s.source            = { :path => './IngitebleIccSDK.zip' }
+    s.source            = { :http => 'https://github.com/IgnitebleTeam/frameworks/raw/master/IgnitebleIccSDK.zip' }
 
     #s.ios.deployment_target = '10.3'
     #s.resources ='IgnitebleIccSDK.bundle'

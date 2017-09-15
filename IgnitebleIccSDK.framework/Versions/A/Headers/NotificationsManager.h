@@ -6,8 +6,13 @@
 
 @interface NotificationsManager : NSObject
 
+
+    @property (nonatomic)  NSString *companyId;
+    @property (nonatomic, copy) NSString *locationId;
+
+
 + (instancetype)sharedNotificationclient;
-- (void)enableNotificationsForDeviceIdentifier:(NSString *)beaconIdentifier
-                                  enterMessage:(NSString *)enterMessage
-                                   exitMessage:(NSString *)exitMessage;
+- (void)updateMonitoringIds;
+- (void)enableNotificationsForDeviceIdentifier;
+
 @end

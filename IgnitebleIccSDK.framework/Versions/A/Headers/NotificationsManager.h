@@ -1,5 +1,5 @@
 //
-// Please report any problems with this app template to contact@estimote.com
+// Please report any problems with this app template to admin@igniteble.com
 //
 
 #import <Foundation/Foundation.h>
@@ -18,5 +18,6 @@
     - (void)updateMonitoringIds;
     - (void)enableNotificationsForDeviceIdentifier;
     - (void)setYourMemberId:(NSString *)memberId;
+
 
 @end

@@ -18,6 +18,8 @@
     - (void)updateMonitoringIds;
     - (void)enableNotificationsForDeviceIdentifier;
     - (void)setYourMemberId:(NSString *)memberId;
+    - (void)loadGeoMap;
+
 
 
 @end

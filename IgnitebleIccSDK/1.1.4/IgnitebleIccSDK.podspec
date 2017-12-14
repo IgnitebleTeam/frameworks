@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'IgnitebleIccSDK'
-    s.version           = '1.1.3'
+    s.version           = '1.1.4'
     s.summary           = 'Igniteble ICC SDK'
     s.homepage          = 'https://github.com/IgnitebleTeam/frameworks/'
 
